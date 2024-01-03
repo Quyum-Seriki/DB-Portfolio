@@ -375,6 +375,12 @@ form textarea{
 form button{
     width: 20em;
 }
+.foot{
+    gap: 5px;   
+}
+footer div:first-of-type{
+    padding: 10px 17% 10px 0;
+}
 }
 @media (min-width:450px) and (max-width: 786px){
     header{
