@@ -305,7 +305,78 @@ footer p {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
-@media (min-width:320px) and (max-width: 786px){
+@media (min-width:320px) and (max-width: 450px){
+    header{
+        padding-bottom: 50px;
+    }
+    header a{
+        display: none;
+    }
+    header div:first-of-type img{
+    margin-left: 50%;
+    }
+    header div:last-of-type img{
+        display: block;
+        width: 20%;
+        margin-left: 80%
+    }
+    .section1{
+    grid-template-columns: auto;
+}
+.section1 div:first-of-type{
+    width: 80%;
+}
+.section1 div:first-of-type h3{
+    width: 100%;
+    font-weight: 700;
+    margin: 0;
+}
+.section1 img{
+    width: 100%;
+}
+.section2-col2{
+    grid-template-columns: auto;
+}
+.section2 h1{
+    padding-top: 30px;
+}
+.section2-col2 div{
+    width: 90%;
+}
+.section3-col div:last-of-type {
+    grid-template-columns: auto;
+    grid-column-gap: 40px;
+    grid-row-gap: 50px;
+}
+.section3-col div:last-of-type img{
+    width: 150px;
+}
+.section5{
+    grid-template-columns: auto;
+}
+.section5 div:first-of-type{
+    width: 100%;
+} 
+form input{
+    width: 15em;
+}
+form textarea{
+    width: 15em;
+}
+.section5 p{
+    width: 80%;
+    margin-left: -5px;
+}
+.section5-col2{
+    width: 75%;
+    margin: 0;
+    margin-left: -12%;
+}
+form button{
+    width: 20em;
+}
+}
+@media (min-width:450px) and (max-width: 786px){
     header{
         padding-bottom: 50px;
     }
