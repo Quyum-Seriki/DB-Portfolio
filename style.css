@@ -35,7 +35,7 @@ header div .a a {
     margin-left: auto;
     background-color: rgb(0, 0, 0, 0.98);
     height: 100vh;
-    width: 15em;
+    width: 12em;
     display: none;
 }
 .sidebar img{
@@ -358,7 +358,6 @@ footer p {
 .section1 div:first-of-type h3{
     width: 100%;
     font-weight: 700;
-    margin: 0;
 }
 .section1 img{
     width: 100%;
@@ -388,28 +387,25 @@ footer p {
     width: 100%;
 } 
 form input{
-    width: 15em;
+    width: 12em;
 }
 form textarea{
-    width: 15em;
+    width: 12em;
 }
 .section5 p{
     width: 80%;
     margin-left: -5px;
 }
 .section5-col2{
-    width: 75%;
+    width: 70%;
     margin: 0;
-    margin-left: -7%;
+    margin-right: 8%;
 }
 form button{
-    width: 20em;
+    width: 15em;
 }
 .foot{
     gap: 5px;   
-}
-footer div:first-of-type{
-    padding: 10px 17% 10px 0;
 }
 }
 @media (min-width:450px) and (max-width: 786px){
