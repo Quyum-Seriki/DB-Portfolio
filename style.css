@@ -387,22 +387,22 @@ footer p {
     width: 100%;
 } 
 form input{
-    width: 12em;
+    width: 13em;
 }
 form textarea{
-    width: 12em;
+    width: 13em;
 }
 .section5 p{
     width: 80%;
     margin-left: -5px;
 }
 .section5-col2{
-    width: 70%;
+    width: 80%;
     margin: 0;
-    margin-right: 8%;
+    margin-left: -8%;
 }
 form button{
-    width: 15em;
+    width: 17em;
 }
 .foot{
     gap: 5px;   
