@@ -8,3 +8,8 @@ img[2].addEventListener("click",()=>{
 img[1].addEventListener("click",()=>{
     sideBar.style.display = "none"
 })
+for (i = 0; i < a.length;i++){
+    a[i].addEventListener("click",()=>{
+        sideBar.style.display = "none"
+    })
+}
