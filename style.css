@@ -38,7 +38,7 @@ header div .a a:hover{
     top: 0;
     right: 0;
     margin-left: auto;
-    background-color: rgb(0, 0, 0, 0.9);
+    background-color: rgb(0, 0, 0);
     height: 100vh;
     width: auto;
     display: none;
